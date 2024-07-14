@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px 20px grey;
+}
+
+.left{
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 390px;
+    color: white;
+    /* background-color: rgb(155, 73, 73); */
+    margin-left: 2rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 180px 0; */
+}
+
+.right{
+    width: 50%;
+    padding: 0 10px;
+}
+
+.title h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.username-sec{
+    margin-top: 20px;
+}
+#username{
+    width: 90%;
+    height: 40px;
+    padding-left: 5px;
+}
+
+.password-sec{
+    margin-top: 20px;
+}
+#password{
+    width: 90%;
+    height: 40px;
+    padding-left: 5px;
+}
+
+.remember-forgot{
+    margin-top: 20px;
+    display: flex;
+    gap: 10%;
+    
+}
+
+.login-btn{
+    margin-top: 20px;
+}
+
+#login-btn{
+    width: 90%;
+    height: 40px;
+}
+
+.signup-sec{
+    margin: 20px 0;
+}
+
+/* @media(width <= 992px) {
+    .container{
+        flex-direction: column;
+    }
+    .form-img{
+        width: 100%;
+        display: none;
+    }
+} */
